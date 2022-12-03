@@ -1,0 +1,149 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #bb4321;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Nike</title>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"> Nike </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portal.html"><b>Buy</b></a></li>
+            </ul>
+    
+        </div>
+    </nav>
+ 
+
+
+<div class="about-section">
+  <h1>Nike India Pvt Ltd</h1>
+  <p>No 66/1, Ground & 1st Floor, Olympia Building, C V Raman Nagar,</p>
+  <p>Bangalore - 560093</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/gourab.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Gourab Kumar Rout</h2>
+        <p class="title">CEO & Founder</p>
+        <p>2nd Year CSE GIETU </p>
+        <p>gourabkumar1620@gmail,com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/akash.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Akash Panigrahi</h2>
+        <p class="title">Art Director</p>
+        <p>2nd Year CSE GIETU</p>
+        <p>akpanigrahi10403@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/twinkle.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Twinkle Patel</h2>
+        <p class="title">Designer</p>
+        <p>2nd Year CSE GIETU</p>
+        <p>21cse027.twinklepatel@giet.edu</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
